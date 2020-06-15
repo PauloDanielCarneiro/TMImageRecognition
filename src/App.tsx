@@ -16,7 +16,7 @@ const App: React.FC = (props) => {
 
     if (imgtag === null) return;
 
-    let modelURL = 'https://storage.googleapis.com/tm-model/9y6qV1Elr/'; // coloca o link da sua model aqui
+    let modelURL = 'https://storage.googleapis.com/tm-model/eQamDMEKK/'; // coloca o link da sua model aqui
     var img = document.getElementById("img");
 
     ml5.imageClassifier(modelURL + 'model.json').then(//ml5 é a lib que faz a comunicação com o modelo; Esse then é algo que pega quando uma promisse acaba e continua o trabalho a partir de lá
